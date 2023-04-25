@@ -1,3 +1,5 @@
+def sort_fun(str):
+  return ''.join(sorted(str))   
+
 str="DEEPASREE"
-sort=sorted(str)
-print(sort)
+print(sort_fun(str))
